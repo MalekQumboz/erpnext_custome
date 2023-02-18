@@ -8,6 +8,6 @@ def calc_hours(doc,method):
 
     doc.work_hours=work_hours
 
-# def status_assign(doc,method):
-#     if not (doc.check_out and doc.check_in):
-#         doc.status="Absent"
+def status_assign(doc,method):
+    if not (doc.check_out and doc.check_in):
+        doc.status="Absent"
